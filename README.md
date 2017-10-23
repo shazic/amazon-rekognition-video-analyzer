@@ -136,7 +136,7 @@ Specifies configuration parameters to be used at run-time by the Image Processor
 }
 ```
 
-* `s3_bucket` - The Amazon S3 bucket in which Image Processor will store captured video frame images. The value specified here _must_ match the value specified for the `RtRekogS3BucketNameParameter` parameter in the `cfn-params.json` file.
+* `s3_bucket` - The Amazon S3 bucket in which Image Processor will store captured video frame images. The value specified here _must_ match the value specified for the `FrameS3BucketNameParameter` parameter in the `cfn-params.json` file.
 
 * `s3_key_frames_root` - The Amazon S3 key prefix that will be prepended to the keys of all stored video frame images.
 
